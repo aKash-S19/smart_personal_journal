@@ -1,12 +1,22 @@
 # Smart Journal
 
 You write a journal entry, hit save, and Groq AI reads it and tells you the mood. Simple.
+This is AI integrated Java full stack project.
 
-## What's inside
+## Working
 
-- **Frontend** — React + Vite. Runs in the browser, talks to the backend via a proxy.
-- **Backend** — Spring Boot + JPA + MySQL. Stores entries and calls Groq API for mood detection.
+- Type a journal entry and hit save
+- Backend stores it in MySQL and asks Groq what mood it is
+- Frontend shows the entry with the detected mood
 
+## Technologies Used
+
+- **Frontend** - React + Vite.
+- **Backend** - Spring Boot + JPA + MySQL.
+- **AI API** - Groq API calling for AI integration.
+
+
+## How to run
 ## You'll need
 
 - Java 21+
@@ -47,8 +57,3 @@ npm run dev
 
 Open `http://127.0.0.1:5173` in your browser.
 
-## How it works
-
-- Type a journal entry and hit save
-- Backend stores it in MySQL and asks Groq what mood it is
-- Frontend shows the entry with the detected mood
